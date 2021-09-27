@@ -1,0 +1,170 @@
+.pageWrap {
+  max-width: 700px;
+  min-width: 320px;
+  margin: 120px auto 0;
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+  text-decoration:none;
+}
+
+.pageWrap img{
+  margin: 0 auto;
+}
+
+ul{
+    list-style:none;
+    width:320px;
+    margin: 48px auto 120px;
+    padding:0;
+}
+
+
+.pageWrap h2{
+  width:75%;
+  margin: 24px auto 0;
+  border-bottom: 15px solid #47acff;
+}
+
+
+.pageWrap h3{
+  font-size:24px;
+ margin:16px auto 8px;
+ padding:0;
+}
+
+.pageWrap p{
+  color:#00acff;
+  font-weight:700;
+  font-size:14px;
+  padding:0;
+  margin:0;
+}
+
+.pageWrap .plane{
+  width:280px;
+  margin: 0 auto;
+}
+
+.pageWrap .arrow{
+  width:160px;
+  margin: 200px auto 0;
+}
+
+.pageWrap .frontarrow{
+  width:60px;
+}
+
+.pageWrap .car{
+  width:100px;
+  margin: 0 auto;
+}
+
+.pageWrap .BackIcon{
+ position:relative;
+ bottom:60px;
+  width:100px;
+}
+
+.pageWrap ul li{
+line-height:2.5;
+font-size:18px;
+padding:0;
+margin:0 auto;
+
+}
+
+.pageWrap ul .check{
+  width:24px;
+  position:relative;
+  top:6px;
+}
+
+footer{
+  width:100%;
+  fisplay:flex;
+  flex-direction:row;
+  align-item:center;
+  justify-content:space-around;
+}
+
+footer p{
+  width:100%;
+  fisplay:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+.red{
+  color:red;
+}
+.green{
+  color:green;
+}
+.yellow{
+  color:#ffb80c;
+}
+
+
+
+.downloadWrap{
+  width:200px;
+  height:200px;
+  border:4px dotted #ccc;
+  margin: 0 auto;
+  display:flex;
+  align-item:center;
+  justify-content:center;
+}
+
+.downloadClearWrap{
+  border:8px solid #368BFF;
+  border-radius:20px;
+  flex-direction:column;
+}
+
+.downloadWrap img{
+display:flex;
+align-self:center;
+
+}
+
+.pageWrap button{
+  width:200px;
+  height:50px;
+  color:#fff;
+  font-size:20px;
+  margin: 24px auto 16px;
+
+  border: none;
+  border-radius: 50px;
+}
+
+.photoCheck{
+ position:relative;
+ top:4px;
+}
+
+.beforeBtn{
+  background-color:#368BFF;
+}
+
+.afterBtn{
+  background-color:#ccc;
+}
+
+.checkStartBtn{
+  width:240px !important;
+  height:100px !important;
+  background: #368bff !important;
+  font-weight:900;
+  font-size:24px !important;
+  border-radius:10px !important;
+margin: 100px auto 24px !important;
+}
+
+
+
+@media all and (min-width: 320px) and (max-width: 699px) {
+ 
+}
